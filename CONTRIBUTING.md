@@ -73,10 +73,10 @@ $ git push -u origin master # ubah master menjadi branch lain jika kamu membuat 
 
 Setelah berhasil melakukan _push_, silahkan membuka PR baru pada laman repositori kamu (hasil fork) akan muncul tombol _compare & pull request_.
 
-![]()
+![Klik Pull Request](https://i.imgur.com/cXbcOkN.png)
 
-Tulis judul dan deskripsi yang sesuai pada PR dan tekan tombol _Create pull request_.
+Tulis judul dan deskripsi yang sesuai pada PR dan klik tombol _Create pull request_.
 
-![]()
+![Submit Pull Request](https://i.imgur.com/nveJmtF.png)
 
 Tunggu _maintainer_ melakukan review terhadap PR kamu. Jika di terima maka writeUP akan diperbarui. Jika tidak, maka terdapat beberapa alasan seperti salah format, ada hal yang tidak sesuai dengan panduan ini, atau terdapat saran terhadap PR kamu agar menjadi lebih baik.
