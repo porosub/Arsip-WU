@@ -8,6 +8,8 @@ Pedoman umum untuk kontribusi projek ini, mengikuti pada pedoman yang berada pad
 
 ## TL;DR
 
+Lihat [ringkasan](#ringkasan).
+
 ## 1. Fork Repository
 
 Pertama, buatlah _fork repository_ ke akun kamu dengan menekan tombol _fork_ di github.
@@ -80,3 +82,13 @@ Tulis judul dan deskripsi yang sesuai pada PR dan klik tombol _Create pull reque
 ![Submit Pull Request](https://i.imgur.com/nveJmtF.png)
 
 Tunggu _maintainer_ melakukan review terhadap PR kamu. Jika di terima maka writeUP akan diperbarui. Jika tidak, maka terdapat beberapa alasan seperti salah format, ada hal yang tidak sesuai dengan panduan ini, atau terdapat saran terhadap PR kamu agar menjadi lebih baik.
+
+## Ringkasan
+
+1. Lakukan _Fork_ dan _Clone_ repositori
+2. Set _upstream_ salinan lokal dan perbarui salinan lokal.
+3. Edit writeUP di-_branch_ master atau membuat yang baru.
+4. Sebelum _commit_ dan _push_, pastikan salinan lokal merupakan versi terbaru.
+5. Lakukan _commit_ dan _push_.
+6. Buka PR baru.
+7. Tunggu _maintainer_ melakukan review, periksa secara berkala dan jika ada revisi harap diperbaiki.
