@@ -25,7 +25,7 @@ Jika berhasil maka akan muncul _repository_ hasil _fork_ di akun kamu.
 Setelah melakukan _fork_, _clone repository_ hasil fork tadi ke komputer / laptop kamu.
 
 ```bash
-$ git clone git@github:[username]/Arsip-WU.git
+$ git clone git@github.com:[username]/Arsip-WU.git
 ```
 
 Ubah direktori / buka hasil _clone_ menggunakan _text editor_, direkomendasikan menggunakan VSCode / VSCodium.
