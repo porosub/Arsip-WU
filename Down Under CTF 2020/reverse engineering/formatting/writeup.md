@@ -32,6 +32,19 @@ d1d_You_Just_ltrace_
 ```
 setelah kami lakukan ltrace didapatkan strings d1d_You_Just_ltrace_296faa2990ac. kami inputkan ternyata masih salah.
 lalu kami lakukan analisa di gdb, kami breakpoint setelah sprintf. ternyata flag disimpan dalam stack.
+```
+[------------------------------------stack-------------------------------------]
+0000| 0x7fffffffdf30 --> 0x29 (')')
+0008| 0x7fffffffdf38 --> 0x90 
+0016| 0x7fffffffdf40 --> 0xac 
+0024| 0x7fffffffdf48 --> 0xbc 
+0032| 0x7fffffffdf50 --> 0x36 ('6')
+0040| 0x7fffffffdf58 --> 0x4000000100 
+0048| 0x7fffffffdf60 ("DUCTF{d1d_You_Just_ltrace_296faa2990acbc36}")
+0056| 0x7fffffffdf68 ("d_You_Just_ltrace_296faa2990acbc36}")
+[------------------------------------------------------------------------------]
+Legend: code, data, rodata, value
+```
 
 <details>
 <summary>Flagnya</summary>
